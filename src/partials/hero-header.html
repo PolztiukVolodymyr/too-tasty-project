@@ -1,6 +1,6 @@
 <header class="header">
   <div class="container header-container">
-    <div class="header-position header-box">
+    <div class="header-box">
       <a class="header-logo" href="">
         <img class="" src="images/hero-header/logo-1x-min.png" alt="logo" />
       </a>
@@ -13,10 +13,10 @@
           <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
         </ul>
       </nav>
-      <button class="header-btn__mobile btn" type="button">
+      <button class="header-btn__mobile btn hvr-grow" type="button">
         <img src="images/hero-header/svg/menu.svg" alt="button menu" />
       </button>
-      <button class="header-btn btn" type="button">Buy now</button>
+      <button class="header-btn btn hvr-grow" type="button">Buy now ></button>
     </div>
   </div>
 </header>
@@ -29,8 +29,8 @@
         <span class="hero-title__item">passion</span>
       </h1>
       <div class="hero-link">
-        <a class="hero-link__content" href="">Products</a>
-        <a class="hero-link__content" href="">How it’s made?</a>
+        <a class="hero-link__content hvr-grow" href="">Products</a>
+        <a class="hero-link__content hvr-grow" href="">How it’s made?</a>
       </div>
     </div>
     <div class="hero-info">
@@ -38,7 +38,25 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
-      <button class="hero-info__btn btn" type="button"></button>
+      <button class="hero-info__btn btn hvr-float" type="button">
+        <picture class="hero-img__arrow">
+          <source
+            srcset="
+              images/hero-header/arrow-right-1x-min.png 1x,
+              images/hero-header/arrow-right-2x-min.png 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              images/hero-header/arrow-right-1x-tab-min.png 1x,
+              images/hero-header/arrow-right-2x-tab-min.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img src="images/hero-header/arrow-right-1x-min.png" alt="arrow-right" />
+        </picture>
+      </button>
     </div>
     <picture class="hero-img__icecream">
       <source
