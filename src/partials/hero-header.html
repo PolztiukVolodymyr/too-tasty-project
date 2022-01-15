@@ -1,7 +1,9 @@
 <header class="header">
-  <div class="container">
-    <div class="hesder-container">
-      <!-- <a href=""><img src="" alt="logo" /></a> -->
+  <div class="container header-container">
+    <div class="header-position header-box">
+      <a class="header-logo" href="">
+        <img class="" src="images/hero-header/logo-1x-min.png" alt="logo" />
+      </a>
       <nav>
         <ul class="header-nav">
           <li class="header-nav__item"><a class="header-nav__link" href="">Home</a></li>
@@ -11,36 +13,123 @@
           <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
         </ul>
       </nav>
+      <button class="header-btn__mobile btn " type="button">
+        <img src="images/hero-header/svg/menu.svg" alt="button menu" />
+      </button>
       <button class="header-btn btn" type="button">Buy now ></button>
-      <button type="button"></button>
     </div>
-    <div class="hero">
-      <h1 class="hero-title">
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-title">
+      <h1 class="hero-title__content">
         ice cream <br />
         made with <br />
         <span class="hero-title__item">passion</span>
       </h1>
       <div class="hero-link">
         <a class="hero-link__content" href="">Products</a>
-        <!-- <button class="hero-btn__content" type="button">Products</button> -->
         <a class="hero-link__content" href="">How it’s made?</a>
-        <!-- <button class="hero-btn__content" type="button">How it’s made?</button> -->
       </div>
-      <p class="hero-text">
+    </div>
+    <div class="hero-info">
+      <p class="hero-info__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
-      <button class="hero-text__btn" type="button"></button>
-      <div>
-        <span class="hero__content"></span>
-        <span class="hero__number">16</span>
-        <p class="hero__item">cafes</p>
-      </div>
-      <div>
-        <span class="hero__content"></span>
-        <span class="hero__number">21</span>
-        <p class="hero__item">food trucks</p>
-      </div>
+      <button class="hero-info__btn btn" type="button"></button>
+    </div>
+    <picture class="hero-img__icecream">
+      <source
+        srcset="
+          images/hero-header/slider-pic7-1x-min.png 1x,
+          images/hero-header/slider-pic7-2x-min.png 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          images/hero-header/slider-pic7-1x-tab-min.png 1x,
+          images/hero-header/slider-pic7-2x-tab-min.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          images/hero-header/slider-pic7-1x-mob-min.png 1x,
+          images/hero-header/slider-pic7-2x-mob-min.png 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img src="images/hero-header/slider-pic7-1x-min.png" alt="ice-cream" />
+    </picture>
+    <picture class="hero-img__ellipse">
+      <source
+        srcset="images/hero-header/ellipse-1x-min.png 1x, images/hero-header/ellipse-2x-min.png 2x"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          images/hero-header/ellipse-1x-tab-min.png 1x,
+          images/hero-header/ellipse-2x-tab-min.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          images/hero-header/ellipse-1x-mob-min.png 1x,
+          images/hero-header/ellipse-2x-mob-min.png 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img src="images/hero-header/ellipse-1x-min.png" alt="ellipse" />
+    </picture>
+    <picture class="hero-img__bio">
+      <source
+        srcset="
+          images/hero-header/slider-pic5-1x-min.png 1x,
+          images/hero-header/slider-pic5-2x-min.png 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          images/hero-header/slider-pic5-1x-tab-min.png 1x,
+          images/hero-header/slider-pic5-2x-tab-min.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img src="images/hero-header/slider-pic5-1x-min.png" alt="photo of milk" />
+    </picture>
+    <picture class="hero-img__tasty">
+      <source
+        srcset="
+          images/hero-header/slider-pic4-1x-min.png 1x,
+          images/hero-header/slider-pic4-2x-min.png 2x
+        "
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="
+          images/hero-header/slider-pic4-1x-tab-min.png 1x,
+          images/hero-header/slider-pic4-2x-tab-min.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img src="images/hero-header/slider-pic4-1x-min.png" alt="girl eating ice cream" />
+    </picture>
+        <ul class="hero-menu">
+          <li class="hero-menu__list">
+            <span class="hero-menu__number">16<span class="hero-menu__item"></span></span>
+            <p class="hero-menu__text">cafes</p>
+          </li>
+          <li>
+            <span class="hero-menu__number">21<span class="hero-menu__item"></span></span>
+            <p class="hero-menu__text">food trucks</p>
+          </li>
+        </ul>
     </div>
   </div>
-</header>
+</section>
