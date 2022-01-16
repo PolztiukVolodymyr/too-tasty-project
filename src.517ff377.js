@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/too-tasty-project/too-tasty-project/src/images/about/back-1x-mob-min.png":[["back-1x-mob-min.ef62eeb0.png","Bmit"],"Bmit"],"/home/runner/work/too-tasty-project/too-tasty-project/src/images/about/back-1x-min.png":[["back-1x-min.92d011c0.png","psKY"],"psKY"],"./../images/customer-reviews/svg/“.svg":[["“.d20c615d.svg","t3pc"],"t3pc"],"./../images/customer-reviews/svg/home.svg":[["home.1d62f7d4.svg","b1mz"],"b1mz"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.f61b4dda.js.map
+//# sourceMappingURL=/too-tasty-project/src.517ff377.js.map
