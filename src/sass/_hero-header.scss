@@ -61,7 +61,7 @@
   background-color: transparent;
   margin-left: auto;
   margin-right: 30px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: none;
   }
 }
@@ -97,7 +97,7 @@
   @media screen and (min-width: 768px) {
     min-height: 399px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     min-height: 665px;
   }
 }
@@ -110,7 +110,7 @@
     top: 102px;
     left: 16px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     top: 171px;
     left: 65px;
   }
@@ -129,7 +129,7 @@
     font-size: 22px;
     line-height: 1.13;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 38px;
     line-height: 1.15;
   }
@@ -141,7 +141,7 @@
   @media screen and (min-width: 768px) {
     font-size: 34px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
   }
 }
@@ -167,6 +167,7 @@
   &:not(:last-child) {
     margin-right: 8px;
   }
+
   &:first-child:hover,
   &:first-child:focus {
     background-color: var(--btn-light-hover);
@@ -185,7 +186,7 @@
     top: 292px;
     left: 154px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     top: 485px;
     left: 255px;
   }
@@ -198,7 +199,7 @@
   line-height: 1.5;
   color: var(--universal-white-color);
   margin-bottom: 7px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: block;
     width: 200px;
     font-size: 14px;
@@ -226,7 +227,7 @@
     top: 63px;
     right: 247px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     top: 108px;
     right: 398px;
   }
@@ -240,7 +241,7 @@
     top: 31px;
     right: 137px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     top: 52px;
     right: 207px;
   }
@@ -253,7 +254,7 @@
     bottom: 28px;
     left: 16px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: block;
     position: absolute;
     bottom: 77px;
@@ -269,7 +270,7 @@
     bottom: 0;
     right: 34px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: block;
     position: absolute;
     bottom: 0;
@@ -286,14 +287,14 @@
     text-align: right;
     z-index: 5;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     top: 156px;
     right: 67px;
   }
 }
 .hero-menu__list:not(:last-child) {
   margin-bottom: 13px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
   }
 }
@@ -307,7 +308,7 @@
   background-color: var(--universal-white-color);
   border-radius: 50%;
   z-index: -1;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 30px;
     height: 30px;
   }
@@ -321,7 +322,7 @@
   text-transform: uppercase;
   color: var(--accent-color);
   position: relative;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 46px;
     line-height: 1.15;
   }
@@ -331,7 +332,7 @@
   font-size: 8px;
   line-height: 1.25;
   color: var(--universal-white-color);
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 14px;
     line-height: 1.28;
   }
