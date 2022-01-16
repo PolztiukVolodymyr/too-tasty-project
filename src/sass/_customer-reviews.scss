@@ -1,87 +1,172 @@
-.section {
-  padding-top: 300px;
-  padding-bottom: 50px;
+.customers-reviews {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 86px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 123px;
+    padding-bottom: 132px;
+  }
 }
-.container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 .reviews__img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
   width: 85px;
   height: 85px;
-}
-.reviews__text {
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 750px;
-  height: 60px;
-  z-index: 100;
-
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.04em;
+  margin-bottom: 26px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 19px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
 }
-.reviews__text::before {
-  position: absolute;
-  top: -19px;
-  left: -31px;
+
+.reviews__wrap {
+  position: relative;
+  min-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-top: 42px;
+  padding-bottom: 26px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fafafa;
+
+  @media screen and (max-width: 768px) {
+    max-width: 620px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 620px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 926px;
+  }
+}
+
+.reviews__dots {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  background-color: #c7133e;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #c7133e;
+  }
+
+  &::before {
+    right: 10px;
+  }
+
+  &::after {
+    left: 10px;
+  }
+}
+
+.reviews__thumb {
+  max-width: 180px;
+  margin: 0 auto;
+  background-image: repeating-linear-gradient(
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0) 29px,
+    #e1e1e1 0,
+    #e1e1e1 30px
+  );
+
+  @media screen and (min-width: 380px) {
+    max-width: 240px;
+  }
+
+  @media screen and (min-width: 480px) {
+    max-width: 280px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 524px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 822px;
+  }
+}
+.reviews__thumb::before {
   content: '';
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 55px;
   width: 54px;
   height: 40px;
   background-image: url(../images/customer-reviews/svg/“.svg);
-  background-repeat: no-repeat;
 }
-.reviews__text::after {
-  content: '';
-  position: absolute;
-  bottom: -100%;
-  left: 50%;
-  background-image: url();
-  width: 32px;
-  height: 4px;
-}
-.reviews__wrap {
+.reviews__text {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 34px;
-  width: 926px;
-  height: 138px;
-  background: #fafafa;
-}
-.reviews__name {
-  font-family: DM Sans;
-  font-style: normal;
+  max-width: 157px;
+  margin: 0 auto;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.87;
+  font-size: 12px;
+  line-height: 2.55;
   text-align: center;
-
   color: #000000;
+
+  @media screen and (min-width: 380px) {
+    max-width: 220px;
+  }
+
+  @media screen and (min-width: 480px) {
+    max-width: 255px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 460px;
+    font-size: 14px;
+    line-height: 2.16;
+    letter-spacing: 0.04em;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 750px;
+    font-size: 16px;
+    line-height: 1.86;
+  }
 }
 
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background: #d9d9d9;
-}
+.reviews__name {
+  padding-bottom: 43px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  color: #000000;
 
-.swiper {
-  width: 926px;
-  height: 350px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 48px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 20px;
+  }
 }
 .swiper-pagination-bullet-active {
   width: 12px;

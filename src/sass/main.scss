@@ -5,9 +5,10 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './utils/modern-normalize';
-@import './utils/veriables';
 @import './utils/base';
+@import './utils/veriables';
 @import './utils/reset';
+@import './utils/library';
 @import './utils/visually-hidden';
 @import './hero-header.scss';
 @import './products';
