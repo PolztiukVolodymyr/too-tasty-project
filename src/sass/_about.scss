@@ -1,3 +1,63 @@
 .about {
-  background-color: yellowgreen;
+  background: #fff5f6;
+  background-image: url(/images/about/back-1x-mob-min.png);
+  background-size: contain;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+}
+.pre-title {
+  font-family: Titan One;
+  display: block;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  margin-bottom: 26px;
+}
+.adout-text {
+  margin-top: 46px;
+}
+
+.text-container {
+  margin: 0 auto;
+  width: 220px;
+}
+.first-text {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.second-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #907e82;
+}
+.last-text {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.about-btn {
+  width: 176px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #d41443;
+}
+.background-container {
 }
