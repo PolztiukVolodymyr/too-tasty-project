@@ -1,4 +1,18 @@
 .about {
+  padding-bottom: 39px;
+  padding-top: 125px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 66px;
+    padding-top: 130px;
+    background-image: none;
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 66px;
+      padding-top: 125px;
+      padding-bottom: 39px;
+      background-image: url(/images/about/back-1x-min.png);
+    }
+  }
+
   background: #fff5f6;
   background-image: url(/images/about/back-1x-mob-min.png);
   background-size: contain;
@@ -12,12 +26,31 @@
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 15px;
+
   color: var(--primary-text-color);
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15px;
+  }
 }
 
 .section-title {
   margin-bottom: 26px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    margin-top: 16px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 55px;
+    margin-top: 15px;
+  }
+}
+
+.content {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .adout-text {
   margin-top: 46px;
@@ -26,23 +59,50 @@
 .text-container {
   margin: 0 auto;
   width: 220px;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 463px;
+  }
 }
 .first-text {
-  margin-bottom: 40px;
+  margin-bottom: 33px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.58;
   color: #000000;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+  }
 }
 .second-text {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.58;
   color: #907e82;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.04em;
+    @media screen and (min-width: 1200px) {
+      margin-left: -15px;
+    }
+  }
 }
 .last-text {
   padding-top: 10px;
   margin-bottom: 25px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 35px;
+    margin-bottom: 45px;
+  }
 }
 .about-btn {
   width: 176px;
@@ -59,5 +119,9 @@
   text-align: center;
   color: #d41443;
 }
-.background-container {
+.main-img {
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
 }
