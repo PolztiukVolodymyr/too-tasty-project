@@ -27,8 +27,7 @@
 .contacts__list {
   @media screen and (min-width: 768px) {
     display: flex;
-    
-  }
+    }
 }
 
 .contacts__item {
@@ -54,11 +53,6 @@
     &:not(:last-child) 
     {margin-right: 30px;}
   }}
-
-.contact-btn__item {
-  height: 44px;
-  width: 100%;
-}
 
 .contacts__name {
   display: inline-block;
@@ -201,13 +195,56 @@
 }
 
 .contact-btn {
-  min-width: 161.45px;
-  margin: 0;
-  padding-top: 86px;
-  padding-left: 50px;
-  padding-bottom: 113px;
-  padding-right: 50px;
-  @media screen and (min-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  
+  
+    /*@media screen and (min-width: 768px) {
     display: flex;
-  }
+  }*/
+  min-width: 161.45px;
+  height: 44px;
+  padding-top: 54px;
+  padding-left: 79px;
+  padding-bottom: 113px;
+  padding-right: 79px;
+}
+
+.contact-btn__item{
+  display: flex;
+  
+  height: 44px;
+  width: 100%;
+}
+.franchise-item {
+  padding-top: 10px;
+}
+
+.location-btn__btn {
+  height: 44px; 
+  font-size: 16px;
+  line-height: 1.31px;
+  color: var(--universal-white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161.45px;
+  background: #D41342;
+  border: 1px solid var(--universal-white-color);
+  border-radius: 22px;
+  
+}
+
+.franchise-btn__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px; 
+  font-size: 16px;
+  line-height: 1.31px;
+  color: var(--accent-color);
+  width: 161.45px;
+  background: var(--universal-white-color);
+  border: 1px solid var(--universal-white-color);
+  border-radius: 22px;
 }
