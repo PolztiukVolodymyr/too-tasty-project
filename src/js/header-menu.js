@@ -26,3 +26,27 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+
+// modal //
+document.addEventListener('DOMContentLoaded', function () {
+  var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+  console.log(scrollbar);
+  document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+    document.body.style.overflow = 'hidden';
+    document.querySelector('#openModal').style.marginLeft = scrollbar;
+  });
+  document.querySelector('[href="#close"]').addEventListener('click', function () {
+    document.body.style.overflow = 'visible';
+    document.querySelector('#openModal').style.marginLeft = '0px';
+  });
+});
+
+// modal-form//
+
+(() => {
+  document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+    e.preventDefault();
+
+    new FormData(e.currentTarget).forEach((value, name) => console.log('${name}: ${value}'));
+  });
+})();
