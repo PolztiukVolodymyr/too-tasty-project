@@ -7,4 +7,4 @@ var i=$(".grid").masonry({itemSelector:".grid__item",columnWidth:".grid_columnWi
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery");
 },{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.11d6001e.js.map
+//# sourceMappingURL=/too-tasty-project/src.ff235c18.js.map
