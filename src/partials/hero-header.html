@@ -19,9 +19,25 @@
         <button class="header-btn__mobile btn hvr-grow js-open-menu" type="button">
           <img src="images/hero-header/svg/menu.svg" alt="button menu" />
         </button>
-        <div class="backdrop">
-          <div class="header-modal js-menu-container" id="mobile-menu">
-            <div class="container is-open"></div>
+        <div class="header-menu js-menu-container" id="mobile-menu">
+          <div class="menu-container is-open">
+            <button class="header-btn__close js-close-menu btn hvr-grow" type="button">
+              <svg width="14" height="14">
+                <use href="images/icons-min.svg#icon-close"></use>
+              </svg>
+            </button>
+            <button class="header-btn__menu btn hvr-grow" type="button">Buy now &#62;</button>
+            <ul class="header-menu__list">
+              <li class="header-menu__item"><a class="header-menu__link" href="">Home</a></li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">About us</a></li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="">How it&#8217;s made?</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="">Our products</a>
+              </li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">Contact</a></li>
+            </ul>
           </div>
         </div>
         <button class="header-btn btn hvr-grow" type="button">Buy now &#62;</button>

@@ -2,6 +2,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const overlayMenu = document.querySelector('.overlay-menu');
 
   const toggleMenu = () => {
     const isMenuOpen = openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
@@ -14,6 +15,7 @@
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+  overlayMenu.addEventListener('click', toggleMenu);
 
   // Закрываем мобильное меню на более широких экранах
   // в случае изменения ориентации устройства.
