@@ -45,11 +45,12 @@
 .contacts__item {
   height: 427px;
   width: 220px;
-  margin-bottom: 20px;
   padding: 43px 20px;
   border-radius: 24px;
   box-shadow: 0px 8px 30px #d414431a;
   background-color: var(--universal-white-color);
+  &:not(:last-child) 
+  {margin-bottom: 20px;}
   @media screen and (min-width: 768px) {
     height: 544px;
     margin-right: 20px;
