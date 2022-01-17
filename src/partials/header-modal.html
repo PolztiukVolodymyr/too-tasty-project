@@ -1,0 +1,69 @@
+<div id="openModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="visually-hidden">Name</h3>
+        <a href="#close" title="Close" class="modal__close">
+          <svg width="11" height="11">
+            <use href="images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="modal-body hidden">
+        <form action="#" class="js-speaker-form modal-form">
+          <p class="modal-form__text">Leave your details, we will call you back</p>
+          <label class="modal-form__label" for="name">Name</label>
+          <div class="modal-form__item">
+            <input class="modal-form__input" type="text" name="name" id="name" required />
+            <svg class="modal-form__icon" width="12" height="12">
+              <use href="images/icons.svg#icon-man"></use>
+            </svg>
+          </div>
+          <label class="modal-form__label" for="tel">Telephone</label>
+          <div class="modal-form__item">
+            <input class="modal-form__input" type="tel" name="tel" id="tel" required />
+            <svg class="modal-form__icon" width="13" height="13">
+              <use href="images/icons.svg#icon-tel"></use>
+            </svg>
+          </div>
+          <label class="modal-form__label" for="email">Mail</label>
+          <div class="modal-form__item">
+            <input class="modal-form__input" type="email" name="email" id="email" required />
+            <svg class="modal-form__icon" width="15" height="12">
+              <use href="images/icons.svg#icon-envelope-two"></use>
+            </svg>
+          </div>
+          <label class="modal-form__label" for="comment">Comment</label>
+          <div class="modal-form__textarea">
+            <textarea
+              class="modal-form__comment"
+              name="comment"
+              id="comment"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+          <div class="modal-form__check">
+            <input
+              class="check__input visually-hidden"
+              type="checkbox"
+              name="checkbox"
+              value=""
+              id="consent"
+              required
+            />
+            <label class="modal-form__consent" for="consent">
+              <span class="check__item">
+                <svg class="check__svg" width="11" height="8">
+                  <use href="images/icons.svg#icon-tick"></use>
+                </svg>
+              </span>
+              I agree with the newsletter and accept
+              <a class="modal-form__link" href="">Terms of an agreemen</a>
+            </label>
+          </div>
+          <button class="modal-form__bth" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
