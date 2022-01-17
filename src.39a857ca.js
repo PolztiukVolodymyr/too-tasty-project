@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/header-menu");
 },{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.7462cec4.js.map
+//# sourceMappingURL=/too-tasty-project/src.39a857ca.js.map
