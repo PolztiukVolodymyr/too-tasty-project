@@ -12,7 +12,11 @@
     padding-bottom: 132px;
   }
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .reviews__img {
   width: 85px;
   height: 85px;
