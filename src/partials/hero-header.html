@@ -17,22 +17,21 @@
             </li>
             <li class="header-nav__item">
               <a class="header-nav__link" href="#contacts">Contact</a>
-
+            </li>
           </ul>
         </nav>
-        <button class="header-btn__mobile btn hvr-grow js-open-menu" type="button">
+        <button class="header-btn__mobile btn hvr-grow js-open-modal" type="button">
           <img src="images/hero-header/svg/menu.svg" alt="button menu" />
         </button>
-        <div class="header-menu js-menu-container" id="mobile-menu">
-          <div class="menu-container is-open">
-            <button class="header-btn__close js-close-menu btn hvr-grow" type="button">
+        <!-- menu -->
+        <div class="header-menu">
+          <div class="menu-container">
+            <button class="header-btn__close btn hvr-grow js-modal-close" type="button">
               <svg width="14" height="14">
                 <use href="images/icons-min.svg#icon-close"></use>
               </svg>
             </button>
-            <button class="header-btn__menu btn hvr-grow" href="#openModal" type="button">
-              Buy now &#62;
-            </button>
+            <a class="header-btn__menu btn hvr-grow" href="#openModal">Buy now &#62;</a>
             <ul class="header-menu__list">
               <li class="header-menu__item"><a class="header-menu__link" href="#home">Home</a></li>
               <li class="header-menu__item">
