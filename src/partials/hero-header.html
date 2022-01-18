@@ -1,4 +1,4 @@
-<header class="header">
+<header id="home" class="header">
   <div class="container header-container">
     <div class="header-position">
       <div class="header-box">
@@ -7,13 +7,17 @@
         </a>
         <nav>
           <ul class="header-nav">
-            <li class="header-nav__item"><a class="header-nav__link" href="">Home</a></li>
-            <li class="header-nav__item"><a class="header-nav__link" href="">About us</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#home">Home</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#about">About us</a></li>
             <li class="header-nav__item">
-              <a class="header-nav__link" href="">How it&#8217;s made?</a>
+              <a class="header-nav__link" href="#How">How it&#8217;s made?</a>
             </li>
-            <li class="header-nav__item"><a class="header-nav__link" href="">Our products</a></li>
-            <li class="header-nav__item"><a class="header-nav__link" href="">Contact</a></li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#products">Our products</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#contacts">Contact</a>
+
           </ul>
         </nav>
         <button class="header-btn__mobile btn hvr-grow js-open-menu" type="button">
@@ -26,21 +30,27 @@
                 <use href="images/icons-min.svg#icon-close"></use>
               </svg>
             </button>
-            <button class="header-btn__menu btn hvr-grow" type="button">Buy now &#62;</button>
+            <button class="header-btn__menu btn hvr-grow" href="#openModal" type="button">
+              Buy now &#62;
+            </button>
             <ul class="header-menu__list">
-              <li class="header-menu__item"><a class="header-menu__link" href="">Home</a></li>
-              <li class="header-menu__item"><a class="header-menu__link" href="">About us</a></li>
+              <li class="header-menu__item"><a class="header-menu__link" href="#home">Home</a></li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="">How it&#8217;s made?</a>
+                <a class="header-menu__link" href="#about">About us</a>
               </li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="">Our products</a>
+                <a class="header-menu__link" href="#How">How it&#8217;s made?</a>
               </li>
-              <li class="header-menu__item"><a class="header-menu__link" href="">Contact</a></li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#products">Our products</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#contacts">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
-        <button class="header-btn btn hvr-grow" type="button">Buy now &#62;</button>
+        <a class="header-btn btn hvr-grow" href="#openModal">Buy now &#62;</a>
       </div>
     </div>
     <!-- hero -->
@@ -53,8 +63,8 @@
             <span class="hero-title__item">passion</span>
           </h1>
           <div class="hero-link">
-            <a class="hero-link__content hvr-bob" href="">Products</a>
-            <a class="hero-link__content hvr-bob" href="">How it&#8217;s made?</a>
+            <a class="hero-link__content hvr-bob" href="#products">Products</a>
+            <a class="hero-link__content hvr-bob" href="#How">How it&#8217;s made?</a>
           </div>
         </div>
         <div class="hero-info">
