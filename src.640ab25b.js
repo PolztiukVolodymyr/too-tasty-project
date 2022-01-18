@@ -6,7 +6,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 var i=$(".grid").masonry({itemSelector:".grid__item",columnWidth:".grid_columnWidth",gutter:".gutter_sizer"});i.on("click",".grid__item",function(){$(this).toggleClass("grid__item_gigante"),i.masonry()}),i.imagesLoaded().progress(function(){i.masonry()});
 },{}],"UISB":[function(require,module,exports) {
 
+},{}],"lr0c":[function(require,module,exports) {
+var e=new Swiper(".mySwiper",{spaceBetween:30,slidesPerView:1,speed:1e3,autoplay:{delay:3500,disableOnInteraction:!1},loop:!0,pagination:{el:".swiper-pagination",clickable:!0}});
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery"),require("./js/products");
-},{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm","./js/products":"UISB"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.3dd863f7.js.map
+"use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery"),require("./js/products"),require("./js/swiper");
+},{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm","./js/products":"UISB","./js/swiper":"lr0c"}]},{},["Focm"], null)
+//# sourceMappingURL=/too-tasty-project/src.640ab25b.js.map
