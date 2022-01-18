@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded",function(){var e=document.querySele
 },{}],"fqlm":[function(require,module,exports) {
 var i=$(".grid").masonry({itemSelector:".grid__item",columnWidth:".grid_columnWidth",gutter:".gutter_sizer"});i.on("click",".grid__item",function(){$(this).toggleClass("grid__item_gigante"),i.masonry()}),i.imagesLoaded().progress(function(){i.masonry()});
 },{}],"UISB":[function(require,module,exports) {
-
+(()=>{const e={openProdBtn:document.querySelector("[data-prod-open1]"),closeProdBtn:document.querySelector("[data-prod-close1]"),prod:document.querySelector("[data-prod1]"),openProdBtn2:document.querySelector("[data-prod-open2]"),closeProdBtn2:document.querySelector("[data-prod-close2]"),prod2:document.querySelector("[data-prod2]"),openProdBtn3:document.querySelector("[data-prod-open3]"),closeProdBtn3:document.querySelector("[data-prod-close3]"),prod3:document.querySelector("[data-prod3]")};function o(){e.prod.classList.toggle("is-hidden__product")}function d(){e.prod2.classList.toggle("is-hidden__product")}function t(){e.prod3.classList.toggle("is-hidden__product")}e.openProdBtn.addEventListener("click",o),e.closeProdBtn.addEventListener("click",o),e.openProdBtn2.addEventListener("click",d),e.closeProdBtn2.addEventListener("click",d),e.openProdBtn3.addEventListener("click",t),e.closeProdBtn3.addEventListener("click",t)})();
 },{}],"lr0c":[function(require,module,exports) {
 var e=new Swiper(".mySwiper",{spaceBetween:30,slidesPerView:1,speed:1e3,autoplay:{delay:3500,disableOnInteraction:!1},loop:!0,pagination:{el:".swiper-pagination",clickable:!0}});
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery"),require("./js/products"),require("./js/swiper");
 },{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm","./js/products":"UISB","./js/swiper":"lr0c"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.8df841be.js.map
+//# sourceMappingURL=/too-tasty-project/src.757e58eb.js.map
