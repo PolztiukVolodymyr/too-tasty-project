@@ -7,7 +7,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: var(--accent-color);
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 480px) {
     font-size: 34px;
     line-height: 1.14;
     letter-spacing: 0.04em;
@@ -47,3 +47,4 @@ h2 {
   font-style: normal;
   font-weight: bold;
 }
+ 
