@@ -4,7 +4,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 (()=>{const e=document.querySelector(".js-menu-container"),t=document.querySelector(".js-open-menu"),o=document.querySelector(".js-close-menu"),n=document.querySelector(".overlay-menu"),d=()=>{const o="true"===t.getAttribute("aria-expanded")||!1;t.setAttribute("aria-expanded",!o),e.classList.toggle("is-open"),bodyScrollLock[o?"enableBodyScroll":"disableBodyScroll"](document.body)};t.addEventListener("click",d),o.addEventListener("click",d),n.addEventListener("click",d),window.matchMedia("(min-width: 768px)").addEventListener("change",o=>{o.matches&&(e.classList.remove("is-open"),t.setAttribute("aria-expanded",!1),bodyScrollLock.enableBodyScroll(document.body))})})(),document.addEventListener("DOMContentLoaded",function(){var e=document.body.clientWidth-window.innerWidth+"px";console.log(e),document.querySelector('[href="#openModal"]').addEventListener("click",function(){document.body.style.overflow="hidden",document.querySelector("#openModal").style.marginLeft=e}),document.querySelector('[href="#close"]').addEventListener("click",function(){document.body.style.overflow="visible",document.querySelector("#openModal").style.marginLeft="0px"})}),document.querySelector(".js-speaker-form").addEventListener("submit",e=>{e.preventDefault(),new FormData(e.currentTarget).forEach((e,t)=>console.log("${name}: ${value}"))});
 },{}],"fqlm":[function(require,module,exports) {
 var i=$(".grid").masonry({itemSelector:".grid__item",columnWidth:".grid_columnWidth",gutter:".gutter_sizer"});i.on("click",".grid__item",function(){$(this).toggleClass("grid__item_gigante"),i.masonry()}),i.imagesLoaded().progress(function(){i.masonry()});
+},{}],"UISB":[function(require,module,exports) {
+
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery");
-},{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.281f64cb.js.map
+"use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery"),require("./js/products");
+},{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm","./js/products":"UISB"}]},{},["Focm"], null)
+//# sourceMappingURL=/too-tasty-project/src.3dd863f7.js.map
