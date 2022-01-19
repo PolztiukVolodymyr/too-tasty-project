@@ -7,8 +7,12 @@
         </a>
         <nav>
           <ul class="header-nav">
-            <li class="header-nav__item"><a class="header-nav__link" href="#home">Home</a></li>
-            <li class="header-nav__item"><a class="header-nav__link" href="#about">About us</a></li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#home">Home</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#about">About us</a>
+            </li>
             <li class="header-nav__item">
               <a class="header-nav__link" href="#How">How it&#8217;s made?</a>
             </li>
@@ -20,31 +24,40 @@
             </li>
           </ul>
         </nav>
-        <button class="header-btn__mobile btn hvr-grow js-open-modal" type="button">
-          <img src="images/hero-header/svg/menu.svg" alt="button menu" />
+        <button class="header-btn__mobile btn hvr-grow js-open-menu" type="button">
+          <svg width="20" height="14">
+            <use href="images/icons-min.svg#icon-menu"></use>
+          </svg>
         </button>
+
         <!-- menu -->
-        <div class="header-menu">
-          <div class="menu-container">
-            <button class="header-btn__close btn hvr-grow js-modal-close" type="button">
+        <div class="header-menu js-menu-container">
+          <div class="menu-container is-open">
+            <button
+              class="header-btn__close btn hvr-grow js-close-menu"
+              type="button"
+              id="open-menu"
+            >
               <svg width="14" height="14">
                 <use href="images/icons-min.svg#icon-close"></use>
               </svg>
             </button>
             <a class="header-btn__menu btn hvr-grow" href="#openModal">Buy now &#62;</a>
             <ul class="header-menu__list">
-              <li class="header-menu__item"><a class="header-menu__link" href="#home">Home</a></li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="#about">About us</a>
+                <a class="header-menu__link" id="home-link" href="#home">Home</a>
               </li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="#How">How it&#8217;s made?</a>
+                <a class="header-menu__link" id="about-link" href="#about">About us</a>
               </li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="#products">Our products</a>
+                <a class="header-menu__link" id="How-link" href="#How">How it&#8217;s made?</a>
               </li>
               <li class="header-menu__item">
-                <a class="header-menu__link" href="#contacts">Contact</a>
+                <a class="header-menu__link" id="products-link" href="#products">Our products</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" id="contacts-link" href="#contacts">Contact</a>
               </li>
             </ul>
           </div>

@@ -1,3 +1,4 @@
+// header//
 .header {
   background-color: var(--hero-bg-color);
 }
@@ -274,13 +275,13 @@
   @media screen and (min-width: 768px) {
     display: block;
     position: absolute;
-    bottom: -4px;
+    bottom: 0px;
     right: 34px;
   }
   @media screen and (min-width: 1280px) {
     display: block;
     position: absolute;
-    bottom: -4px;
+    bottom: 0px;
     right: 59px;
   }
 }
@@ -346,12 +347,6 @@
 }
 
 // header-modal//
-.header-backdrop {
-  // background-color: var(--primary-bg-color);
-  // width: 100%;
-  // height: 100%;
-}
-
 .header-menu {
   position: fixed;
   top: 0;
@@ -367,7 +362,7 @@
     width: 254px;
   }
   @media screen and (min-width: 1280px) {
-    display: none;
+    // display: none;
   }
   .menu-container {
     position: relative;
@@ -385,7 +380,7 @@
   background-color: transparent;
   position: absolute;
   top: 23px;
-  right: 34px;
+  right: 30px;
 }
 .header-btn__menu {
   font-size: 16px;

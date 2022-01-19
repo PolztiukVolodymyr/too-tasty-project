@@ -1,6 +1,6 @@
 .gallery {
   padding-top: 49px;
-  padding-bottom: 40px;
+  // padding-bottom: 40px;
   background-image: linear-gradient(to bottom, #fff5f6 40%, #ffffff 43.6%, #ffffff);
 
   @media screen and(min-width:768px) {
@@ -19,9 +19,12 @@
   position: relative;
   // width: 280px;
   max-width: 280px;
-  display: grid;
-  // grid-auto-flow: dense;
   overflow: hidden;
+  display: grid;
+  grid-auto-flow: dense;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
 
   @media screen and(min-width:768px) {
     // width: 620px;
@@ -56,8 +59,6 @@
   width: 90px;
   // height: auto;
   margin-bottom: 4px;
-  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-  border-radius: 24px;
 
   @media screen and(min-width:768px) {
     // width: 180px;
@@ -89,132 +90,132 @@
   }
 }
 
-.gread__item-1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 7;
-  }
-}
+// .gread__item-1 {
+//   grid-column-start: 1;
+//   grid-column-end: 3;
+//   grid-row-start: 3;
+//   grid-row-end: 4;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 1;
+//     grid-column-end: 2;
+//     grid-row-start: 4;
+//     grid-row-end: 7;
+//   }
+// }
 
-.gread__item-2 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 6;
-  }
-}
+// .gread__item-2 {
+//   grid-column-start: 2;
+//   grid-column-end: 4;
+//   grid-row-start: 2;
+//   grid-row-end: 3;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 2;
+//     grid-column-end: 3;
+//     grid-row-start: 3;
+//     grid-row-end: 6;
+//   }
+// }
 
-.gread__item-3 {
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 6;
-    grid-row-end: 9;
-  }
-}
+// .gread__item-3 {
+//   grid-column-start: 4;
+//   grid-column-end: 6;
+//   grid-row-start: 2;
+//   grid-row-end: 3;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 2;
+//     grid-column-end: 3;
+//     grid-row-start: 6;
+//     grid-row-end: 9;
+//   }
+// }
 
-.gread__item-4 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 7;
-  }
-}
+// .gread__item-4 {
+//   grid-column-start: 3;
+//   grid-column-end: 5;
+//   grid-row-start: 1;
+//   grid-row-end: 2;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 3;
+//     grid-column-end: 5;
+//     grid-row-start: 1;
+//     grid-row-end: 7;
+//   }
+// }
 
-.gread__item-5 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 10;
-  }
-}
+// .gread__item-5 {
+//   grid-column-start: 3;
+//   grid-column-end: 5;
+//   grid-row-start: 3;
+//   grid-row-end: 4;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 3;
+//     grid-column-end: 4;
+//     grid-row-start: 7;
+//     grid-row-end: 10;
+//   }
+// }
 
-.gread__item-6 {
-  grid-column-start: 5;
-  grid-column-end: 7;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 6;
-  }
-}
+// .gread__item-6 {
+//   grid-column-start: 5;
+//   grid-column-end: 7;
+//   grid-row-start: 3;
+//   grid-row-end: 4;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 5;
+//     grid-column-end: 6;
+//     grid-row-start: 3;
+//     grid-row-end: 6;
+//   }
+// }
 
-.gread__item-7 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 9;
-  }
-}
+// .gread__item-7 {
+//   grid-column-start: 2;
+//   grid-column-end: 4;
+//   grid-row-start: 4;
+//   grid-row-end: 5;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 5;
+//     grid-column-end: 6;
+//     grid-row-start: 6;
+//     grid-row-end: 9;
+//   }
+// }
 
-.gread__item-8 {
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 5;
-  }
-}
+// .gread__item-8 {
+//   grid-column-start: 4;
+//   grid-column-end: 6;
+//   grid-row-start: 4;
+//   grid-row-end: 5;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 6;
+//     grid-column-end: 7;
+//     grid-row-start: 2;
+//     grid-row-end: 5;
+//   }
+// }
 
-.gread__item-9 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 8;
-  }
-}
+// .gread__item-9 {
+//   grid-column-start: 3;
+//   grid-column-end: 5;
+//   grid-row-start: 5;
+//   grid-row-end: 6;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 6;
+//     grid-column-end: 7;
+//     grid-row-start: 5;
+//     grid-row-end: 8;
+//   }
+// }
 
-.gread__item-10 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 7;
-  @media screen and (min-width: 768px) {
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 7;
-  }
-}
+// .gread__item-10 {
+//   grid-column-start: 3;
+//   grid-column-end: 5;
+//   grid-row-start: 6;
+//   grid-row-end: 7;
+//   @media screen and (min-width: 768px) {
+//     grid-column-start: 7;
+//     grid-column-end: 8;
+//     grid-row-start: 4;
+//     grid-row-end: 7;
+//   }
+// }
