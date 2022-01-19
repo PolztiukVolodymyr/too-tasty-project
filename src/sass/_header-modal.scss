@@ -26,7 +26,7 @@
   position: relative;
   width: auto;
   margin: 10px;
-  max-width: 480px;
+  max-width: 450px;
   @media (min-width: 576px) {
     max-width: 528px;
     margin: 30px auto;
@@ -108,7 +108,10 @@
 }
 //  form //
 .modal-form {
-  padding: 40px;
+  padding: 20px;
+  @media screen and (min-width: 768px) {
+    padding: 40px;
+  }
 }
 .modal-form__text {
   font-size: 20px;
