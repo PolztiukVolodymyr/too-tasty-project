@@ -313,9 +313,9 @@
   cursor: pointer;
   z-index: 2;
   border-radius: 50%;
-  background-color: transparent;
-  width: 40px;
-  height: 40px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
   align-items: center;
   justify-content: center;
   border-color: transparent;
@@ -328,6 +328,31 @@
   @media screen and (min-width: 1280px) {
     margin-top: 55px;
   }
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+  }
+}
+
+.button-product-open__ice-cream {
+  &:hover,
+  &:focus {
+    background-color: var(--btn-light-hover);
+  }
+}
+
+.button-product-open__ice-coffee {
+  &:hover,
+  &:focus {
+    background-color: #c06f2a;
+  }
+}
+
+.button-product-open__milkshakes {
+  &:hover,
+  &:focus {
+    background-color: #5b9200;
+  }
 }
 
 .button-product-close {
@@ -337,11 +362,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-color: transparent;
   left: 45%;
-  bottom: 30px;
+  bottom: 45px;
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+  }
+}
+
+.button-product-close__ice-cream {
+  &:hover,
+  &:focus {
+    background-color: var(--btn-light-hover);
+  }
+}
+
+.button-product-close__ice-coffee {
+  &:hover,
+  &:focus {
+    background-color: #c06f2a;
+  }
+}
+
+.button-product-close__milkshakes {
+  &:hover,
+  &:focus {
+    background-color: #5b9200;
+  }
 }
 
 .list-products__wrap {
