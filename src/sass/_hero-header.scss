@@ -9,7 +9,6 @@
   position: absolute;
   top: 6px;
   z-index: 5;
-  min-width: 450px;
   @media screen and (min-width: 768px) {
     top: 37px;
     left: 26px;
@@ -65,6 +64,7 @@
 .header-btn__mobile {
   background-color: transparent;
   margin-left: auto;
+  margin-right: 20px;
 
   @media screen and (min-width: 768px) {
     margin-right: 30px;
