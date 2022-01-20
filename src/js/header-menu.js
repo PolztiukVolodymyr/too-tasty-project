@@ -7,6 +7,7 @@
   const mobileMenuHow = document.querySelector('#How-link');
   const mobileMenuProducts = document.querySelector('#products-link');
   const mobileMenuContacts = document.querySelector('#contacts-link');
+  const mobileMenubtn = document.querySelector('#modal-btn');
 
   const toggleMenu = () => {
     const isMenuOpen = openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
@@ -26,6 +27,7 @@
   mobileMenuAbout.addEventListener('click', toggleMenu);
   mobileMenuProducts.addEventListener('click', toggleMenu);
   mobileMenuContacts.addEventListener('click', toggleMenu);
+  mobileMenubtn.addEventListener('click', toggleMenu);
 
   // Закрываем мобильное меню на более широких экранах
   // в случае изменения ориентации устройства.
