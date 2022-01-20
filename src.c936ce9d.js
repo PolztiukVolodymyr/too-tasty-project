@@ -11,4 +11,4 @@ var e=new Swiper(".mySwiper",{spaceBetween:30,slidesPerView:1,speed:1e3,autoplay
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/header-menu"),require("./js/masonry-layout-gallery"),require("./js/products"),require("./js/swiper");
 },{"./sass/main.scss":"clu1","./js/header-menu":"zCqJ","./js/masonry-layout-gallery":"fqlm","./js/products":"UISB","./js/swiper":"lr0c"}]},{},["Focm"], null)
-//# sourceMappingURL=/too-tasty-project/src.1acefaba.js.map
+//# sourceMappingURL=/too-tasty-project/src.c936ce9d.js.map
